@@ -1,0 +1,72 @@
+html{overflow-x:hidden;}
+/* 头部导航 */
+header{width: 100%;background: #e3e4e6;}
+.top{width: 1200px;height: 32px; margin: 0 auto;}
+.top .headnav b{font:12px/30px "";}
+.top .headnav span a:hover{border-bottom: 1px solid #303539;color: crimson;}
+.top .headnav .center{display: inline-block;margin-left:150px;}
+.top .headnav .center span{font: 12px/30px "";color: #987780;padding:0 13px ;cursor: hand;}
+.head .logo #fenlei{margin: 10px 0 0 0;width:224px;height: 32px;background: #F7F7F7;font: 16px/30px "";text-align: center;}
+
+/* logo */
+.logo{margin-top: 50px;float: left;}
+.search{float: right;width:976px;height: 146px;background-color: #f7f7f7;}
+.search .search-top{height: 64px;}
+.search .search-top form{display: flex; margin-top: 20px;float: left;margin-left: 116px;}
+.search #search-box{width: 440px;height: 34px;}
+.search #search-btn{width: 70px;height: 36px;margin-right: 354px;
+background-color:#f21c1c ;border: 0;color: #fff;}
+.search .search-top span{font: 12px/3 "";color: #97949d;margin-top: 14px;margin-left: 116px;}
+.search .search-top a{font: 12px/3 "";color: #97949d;padding: 2 6px;}
+
+.search .search-top #car{width: 156px;height: 37px;float: right;background-color: #fff;margin-top: -34px;
+font:14px/37px "";text-align: center;}
+.search .search-top #car span{width:40px;height:15px;background: #f21c1e;border-radius: 50%;color: #fff;}
+
+.search .search-bottom{margin-top: 58px;}
+.search .search-bottom span{padding: 0 12px;color: #303539;font-size: 16px;}
+.search .search-bottom span:hover{color: #F21C1C;}
+
+
+#cont{
+		width: 1000px;height: 524px;
+		border:1px solid #e5e5e5;
+		margin: 0 auto;
+		margin-top: 20%;
+		overflow: hidden;
+		h3{
+			border-bottom:1px solid #e5e5e5;
+			font:14px/40px "";
+		}
+		
+		.box{
+			width: 250px;
+			height: 260px;
+			float: left;
+			border: solid 1px #e5e5e5;
+			box-sizing: border-box;
+			text-align: center;
+			img{
+				width: 60%;
+			}
+			p{
+				line-height: 16px;
+				height: 32px;
+				overflow: hidden;
+				margin: 10px 0;
+			}
+			em{
+				width: 100px;
+				height: 30px;
+				line-height: 30px;
+				text-align: center;
+				margin: 10px auto;
+				display: block;
+				font-style: normal;
+				background: darkred;
+				color: #fff;
+			}
+		}
+	}
+
+        

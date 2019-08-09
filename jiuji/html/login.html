@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登录-九机网</title>
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/login.css" />
+	</head>
+	<body>
+		<div id="login-header">
+			<img src="../images/header/logo.png" />
+			<span>欢迎登录</span>
+		</div>
+		
+		<div id="banner">
+				<img src="../images/login/1.png" />
+				<div class="dl">
+					<div class="dl-top">
+						<span>扫码登录</span>|
+						<span>账号登录</span>
+					</div>
+					<!-- <img src="../images/login/2.png" /> -->
+					<form action="car.html" method="post">
+						<input type="text" name="user" required="true" digits=true id="txt1" placeholder="用户名" maxlength="10" minlength="7"/>
+						<input type="text" id="txt2" placeholder="密码" required="true" minlength="6"/>
+						<input type="submit" id="btn1" value="登录" />
+						<p><a href="register.html">立即注册</a></p>
+						<h6>其他方式登录九机</h6>
+					</form>	
+				</div>
+		</div>
+	</body>
+	<script src="../js/jquery.2.2.4.js"></script>
+	<script src="../js/jquery.validate.js"></script>
+	<script src="../js/jquery.validate.messages_zh.js"></script>
+	<!-- <script src="../js/login.js"></script> -->
+	<script>
+		$(function(){
+			$('form').validate()
+		})
+	</script>
+</html>

@@ -1,0 +1,21 @@
+#login-header{width:1200px;height: 76px;margin: 30px auto;}
+#login-header span{width:160px;height: 36px;border-left:1px solid red ;
+font-size: 24px;color:red;padding: 0 20px;margin-left: 20px;}
+
+#center{width: 1200px;height: 348px;border: 8px solid #e5e5e5;margin: 0 auto;}
+#center .qiehuan span{background:#e5e5e5;width: 100px;height: 45px;font:16px/45px "";padding: 10px;}
+#center .qiehuan span:nth-child(1){background: #fff;}
+#center .kuaisu{width: 888px;height: 348px;}
+
+#center .kuaisu #tel{width: 230px;height: 28px;margin-top: 30px;}
+#center .kuaisu #yanzheng{width: 115px;height: 28px;margin-top: 10px;}
+#center .kuaisu button{margin-left: 10px;height: 30px;margin-top: 10px;}
+#center .kuaisu b{padding-left: 40px;}
+#center .kuaisu #btn2{margin: 40px 0 0 90px;width: 150px;height: 37px;background: red;}
+
+#center .zhanghao{width: 888px;height: 430px;display: none;}
+#center .zhanghao .d2{margin: 10px 30px;}
+#center .zhanghao .d2 input{width: 230px;height: 25px;margin-top: 5px;}
+#center .zhanghao .d2  #duanxin{width: 110px;height: 25px;}
+#center .zhanghao #btn1{margin-left: 10px;height: 30px;margin-top: 10px;}
+#center .zhanghao #btn2{margin: 20px 0 0 40px;width: 150px;height: 37px;background: red;color: #fff;}

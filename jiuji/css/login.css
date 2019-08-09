@@ -1,0 +1,15 @@
+#login-header{width:1200px;height: 76px;margin: 30px auto;}
+#login-header span{width:160px;height: 36px;border-left:1px solid red ;
+font-size: 24px;color:red;padding: 0 20px;margin-left: 20px;}
+
+#banner{height: 425px;width:100%;background-color: #000;position: relative;}
+#banner img{position: absolute;left: 300px;}
+#banner .dl{width: 325px;height: 375px;background-color: #fff;position: absolute;left: 800px;top: 25px;position: relative;}
+#banner .dl .dl-top{height: 48px;border-bottom: 1px solid #ccc;margin-bottom: 50px;}
+#banner .dl .dl-top span{font: 18px/48px "";margin: 0 40px 0 40px;color: #97949D;}
+#banner .dl .dl-top span:hover{color: coral;}
+#banner .dl img{position: absolute;left: 82px;top: 90px;}
+#banner .dl input{margin: 10px 15px 10px 15px;width: 290px;height: 35px;}
+#banner .dl p{text-align: center;padding: 10px 0;}
+#banner .dl p a:hover{color: red;}
+#banner .dl h6{text-align: center;color: #ccc;}
